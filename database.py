@@ -41,7 +41,6 @@ def create_tables():
 
     conn.commit()
     conn.close()
-    print("✅ Banco de dados e tabelas configurados com sucesso!")
 
 if __name__ == "__main__":
     create_tables()
